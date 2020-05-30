@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+        <script src="p5.dom.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+        <script src="p5.speech.js"></script>
+        <script src="Agent.js"></script>
+        <script src="env.js"></script>
+        <script src="replay_buffer.js"></script>
+        <script src="ConvDQN.js"></script>
+        <script src="parameters.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!-- <div id="console"></div>
+        <video autoplay playsinline muted id="webcam" width="224" height="224"></video> -->
+        
+        <div style="position: 'absolute'; top: 400px; right: 0px">
+            <label for="myfile">Select Model:</label>
+            <input type="file" id="upload-json" name="myfile"><br><br>
+            <label for="myfile">Select Weights:</label>
+            <input type="file" id="upload-weights" name="myfile"><br><br>
+            <script src = 'obstacle.js'></script>
+        </div>
+    </body>
+</html>

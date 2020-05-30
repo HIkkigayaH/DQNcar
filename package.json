@@ -1,0 +1,18 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "p5.js stuff to manipulate thr car",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Protim Pal",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^8.0.6",
+    "express": "^4.17.1",
+    "serialport": "^8.0.7",
+    "socket.io": "^2.3.0"
+  }
+}
