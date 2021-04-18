@@ -1,0 +1,17 @@
+var epochs = 100;
+var epsilon = 0;
+const episodeN = 3000;
+const epsilonRate = 50 / (epochs * episodeN);
+const batchSize = 32;
+const targetnetF = 1500;
+const bufferSize = 500000;
+const TRAINING = 1;
+const TESTING = 2;
+const hidden_units = 128;
+const bufferThreshold = 450000;
+const url1 = "http://localhost/exp.json";
+// const url2 = 'http://localhost/exp2.json';
+var targetnetC = targetnetF;
+const nn = new NN();
+const path = "downloads://brain_100_merged_2";
+var mode = 2;
